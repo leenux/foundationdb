@@ -17,4 +17,4 @@ FDB\_DATACENTER\_ID : set "datacenter_id" in /etc/foundationdb/foundationdb.conf
 
 FDB\_MACHINE\_ID : set "machine_id" in /etc/foundationdb/foundationdb.conf
 
-e.g docker run -it -e FDB_DATACENTER_ID=DC1 -e FDB_MACHINE_ID=minikube chr1st0ph/foundationdb
+e.g docker run -it -e FDB_DATACENTER_ID=DC1 -e FDB_MACHINE_ID=minikube leenux/foundationdb
